@@ -32,21 +32,20 @@ def recommend(movie):
         recommended_movies_name.append(movies.iloc[i[0]].title)
     return recommended_movies_name,recommended_movies_poster
 
-if st.button('Show recommendation'):
-    recommended_movies_name,recommended_movies_poster=recommend(selected_movie)
-    col1,col2,col3,col4,col5=st.columns(5)
-    with col1:
-        st.image(recommended_movies_poster[0])
-        st.text(recommended_movies_name[0])
-    with col2:
-        st.image(recommended_movies_poster[1])
-        st.text(recommended_movies_name[1])
-    with col3:
-        st.image(recommended_movies_poster[2])
-        st.text(recommended_movies_name[2])
-    with col4:
-        st.image(recommended_movies_poster[3])
-        st.text(recommended_movies_name[3])
-    with col5:
-        st.image(recommended_movies_poster[4])
-        st.text(recommended_movies_name[4])
+recommended_movies_name,recommended_movies_poster=recommend(selected_movie)
+col1,col2,col3,col4,col5=st.columns(5)
+with col1:
+    st.image(recommended_movies_poster[0])
+    st.text(recommended_movies_name[0])
+with col2:
+    st.image(recommended_movies_poster[1])
+    st.text(recommended_movies_name[1])
+with col3:
+    st.image(recommended_movies_poster[2])
+    st.text(recommended_movies_name[2])
+with col4:
+    st.image(recommended_movies_poster[3])
+    st.text(recommended_movies_name[3])
+with col5:
+    st.image(recommended_movies_poster[4])
+    st.text(recommended_movies_name[4])

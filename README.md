@@ -37,7 +37,7 @@ _A sneak peek of the application interface._
 
 ## 🚀 How to Use
 
-1. Open the deployed **[Streamlit App](https://your-app-url)** (Replace with your actual link)
+1. Open the deployed **[Streamlit App](https://movie-recomender-system-gxvafmv42gbvawteeke3np.streamlit.app/)** (Replace with your actual link)
 2. Enter a **movie name**
 3. Get instant **recommendations**
 

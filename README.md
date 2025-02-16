@@ -1,14 +1,12 @@
 # 🎬 Movie Recommendation System
 
-![App Screenshot](assets/image.png)
-
 Welcome to the **Movie Recommendation System**, a Streamlit-powered web application that helps users discover new movies based on their preferences. 🚀
 
 ---
 
 ## 🖼️ Preview
 
-![App Screenshot](main_page.png)
+![App Screenshot](assets/image.png)
 _A sneak peek of the application interface._
 
 ---

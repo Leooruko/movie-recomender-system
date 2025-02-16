@@ -1,9 +1,10 @@
+import pickle
 import numpy as np
 import streamlit as st
 import requests
 
 st.header("Movies Recommendation System Using Machine Learning")
-movies = np.load("artifact/movies.npz", allow_pickle=True)["movies"]
+movies = pickle.load(open('artifact/movie_list.pkl','rb'))
 similarity = np.load("artifact/similarity.npz", allow_pickle=True)["similarity"]
 
 movie_list=movies['title'].values

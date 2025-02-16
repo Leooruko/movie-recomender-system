@@ -3,8 +3,8 @@ import streamlit as st
 import requests
 
 st.header("Movies Recommendation System Using Machine Learning")
-movies = np.load("artifacts/movies.npz", allow_pickle=True)["movies"]
-similarity = np.load("artifacts/similarity.npz", allow_pickle=True)["similarity"]
+movies = np.load("artifact/movies.npz", allow_pickle=True)["movies"]
+similarity = np.load("artifact/similarity.npz", allow_pickle=True)["similarity"]
 
 movie_list=movies['title'].values
 selected_movie=st.selectbox(
